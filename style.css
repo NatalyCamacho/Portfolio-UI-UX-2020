@@ -102,7 +102,6 @@ body {
     bottom: 0;
     right: 0;
     z-index: 2;
-
 }
 
 .planet-blue1 {
@@ -291,6 +290,15 @@ img {
         top: 18em;
         width: 90% !important;
     }
+
+    .person {
+        display: block;
+        position: absolute;
+        top: 45em;
+        left: 12em;
+        z-index: 3;
+        animation: bounce 3s infinite alternate ease-in;
+    }
 }
 
 @media only screen and (min-width: 960px) {
@@ -313,6 +321,7 @@ img {
     .container .action-btn a {
         background-color: #1A2C42;
         color: #fff;
+        box-shadow: 0px 4px 8px 0px rgba(221, 221, 221, 1);
     }
 
     .container .action-btn:hover {
