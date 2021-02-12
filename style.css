@@ -323,7 +323,7 @@ img {
     .container {
         width: 100%;
         position: absolute;
-        top: 15em;
+        top: 10em;
         left: 5em;
         max-width: 440px;
         color: #1A2C42;
@@ -350,5 +350,9 @@ img {
 @media only screen and (min-width: 1260px) {
     .planet-blue2 {
         display: block;
+    }
+
+    .container {
+        top: 15em;
     }
 }
