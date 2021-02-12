@@ -108,6 +108,7 @@ body {
     position: absolute;
     top: 5em;
     right: 30em;
+    z-index: 2;
     animation: bounce 3s infinite alternate ease-in;
 }
 
