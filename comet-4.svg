@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="69px" height="9px" viewBox="0 0 69 9" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <title>comet-4</title>
+    <defs>
+        <linearGradient x1="-0.0108908203%" y1="50%" x2="100%" y2="50%" id="linearGradient-1">
+            <stop stop-color="#00D2EE" offset="0%"></stop>
+            <stop stop-color="#0073A5" stop-opacity="0.6" offset="81%"></stop>
+        </linearGradient>
+    </defs>
+    <g id="Page-1" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="Desktop-HD-Copy-4" transform="translate(-863.000000, -760.000000)" fill="url(#linearGradient-1)" fill-rule="nonzero">
+            <g id="Background">
+                <path d="M932,765.426256 L867.929107,760 L867.929107,760 L867.636066,760 C865.075637,760 863,762.014719 863,764.5 C863,766.985281 865.075637,769 867.636066,769 C867.808885,769 867.974191,769 868.14701,769 L932,765.426256 Z" id="comet-4"></path>
+            </g>
+        </g>
+    </g>
+</svg>

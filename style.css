@@ -1,0 +1,354 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    height: 100vh;
+    width: 100% !important;
+    margin: 0;
+    padding: 0;
+    position: relative;
+    /* display: grid; */
+    background-color: #1A2C42;
+    /* color: #1C3144; */
+    color: white;
+    font-family: Arial, Helvetica, sans-serif;
+    overflow: hidden;
+    /* test */
+}
+
+.illustrations {
+    height: 100vh;
+    width: 100%;
+    position: relative;
+    overflow: hidden;
+}
+
+.white {
+    display: none;
+}
+
+.bg-highlight2 {
+    position: absolute;
+    bottom: 0;
+    width: 100%;
+    z-index: 1;
+}
+
+.star-white1 {
+    top: 10em;
+    left: 30em;
+}
+
+.star-white2 {
+    top: 8em;
+    left: 45em;
+}
+
+.star-white3 {
+    top: 5em;
+    right: 30em;
+}
+
+.star-white4 {
+    top: 2em;
+    right: 5em;
+}
+
+.star-white5 {
+    top: 15em;
+    right: 5em;
+}
+
+.star-white6 {
+    top: 20em;
+    right: 10em;
+
+}
+
+.star-white7 {
+    top: 40em;
+    right: 30em;
+    z-index: 2;
+}
+
+.star-white8 {
+    top: 40em;
+    left: 35em;
+    z-index: 2;
+}
+
+.star-white9 {
+    top: 50em;
+    left: 45em;
+    z-index: 2;
+}
+
+.person {
+    display: none;
+}
+
+.planet-orange1 {
+    position: absolute;
+    top: 4em;
+    right: 5em;
+    animation: bounce 3s infinite alternate ease-in;
+    z-index: 11;
+}
+
+.planet-orange2 {
+    position: absolute;
+    bottom: 0;
+    right: 0;
+    z-index: 2;
+
+}
+
+.planet-blue1 {
+    position: absolute;
+    top: 5em;
+    right: 30em;
+    animation: bounce 3s infinite alternate ease-in;
+}
+
+.planet-blue2 {
+    display: none;
+    position: absolute;
+    bottom: 10em;
+    left: 40em;
+    z-index: 2;
+    animation: bounce 3s infinite alternate ease-in;
+}
+
+.comet1 {
+    position: absolute;
+    left: 30em;
+    top: 5em;
+    animation: forward 5s infinite alternate ease-in;
+}
+
+.comet2 {
+    position: absolute;
+    right: 20em;
+    top: 20em;
+    animation: forward 3s infinite alternate ease-in;
+}
+
+.comet3 {
+    position: absolute;
+    right: 5em;
+    top: 30em;
+    animation: forward 4s infinite alternate ease-in;
+}
+
+.comet4 {
+    position: absolute;
+    right: 40em;
+    bottom: 5em;
+    animation: forward 2s infinite alternate ease-in;
+}
+
+.star {
+    position: absolute;
+}
+
+.star-blue {
+    top: 1em;
+    left: 20em;
+}
+
+.star-blue2 {
+    top: 5em;
+    left: 50em;
+}
+
+.star-blue3 {
+    top: 1em;
+    left: 60em;
+}
+
+.star-blue4 {
+    top: 10em;
+    left: 60em;
+}
+
+.star-blue5 {
+    top: 5em;
+    right: 20em;
+}
+
+.star-blue6 {
+    top: 15em;
+    right: 15em;
+}
+
+.star-blue7 {
+    top: 20em;
+    left: 70em;
+}
+
+.star-blue8 {
+    top: 30em;
+    right: 20em;
+}
+
+.star-blue9 {
+    top: 45em;
+    left: 65em;
+    z-index: 2;
+}
+
+.star-blue10 {
+    top: 55em;
+    left: 50em;
+    z-index: 2;
+}
+
+.star-blue11 {
+    top: 48em;
+    left: 35em;
+    z-index: 2;
+}
+
+.container {
+    position: absolute;
+    top: 10em;
+    width: 90%;
+    left: 1em;
+    background-color: rgb(26, 44, 66, 0.5);
+    padding: 0.2em;
+}
+
+.background {
+    height: 100vh;
+    width: 100%;
+    position: absolute;
+    z-index: 1;
+    top: 0;
+}
+
+img {
+    width: 100%;
+    height: 100%;
+}
+
+.container .action-btn {
+    margin-top: 4em;
+}
+
+.container .action-btn a {
+    text-decoration: none;
+    background-color: #fff;
+    color: #1A2c42;
+    font-weight: bold;
+    padding: 1em;
+    border-radius: 6px;
+    position: relative;
+    z-index: 10;
+}
+
+.container .action-btn {
+    transition: all .2s ease-in-out;
+}
+
+.container .text h1 {
+    font-size: 2em;
+}
+
+.lead {
+    font-size: 1.2em !important;
+    margin: 1em 0;
+}
+
+.text p {
+    margin: 1em 0;
+    font-size: 1em;
+}
+
+@keyframes bounce {
+    0% {
+        transform: translateY(0);
+    }
+
+    100% {
+        transform: translateY(-20px);
+    }
+}
+
+@keyframes forward {
+    0% {
+        transform: translateX(0);
+    }
+
+    100% {
+        transform: translateX(-20px);
+    }
+}
+
+@media only screen and (min-width: 640px) {
+    .container {
+        top: 18em;
+        width: 90% !important;
+    }
+}
+
+@media only screen and (min-width: 960px) {
+    .person {
+        display: block;
+        position: absolute;
+        top: 28em;
+        left: 52em;
+        z-index: 3;
+        animation: bounce 3s infinite alternate ease-in;
+    }
+
+    .white {
+        position: absolute;
+        top: 0;
+        z-index: 3;
+        display: block;
+    }
+
+    .container .action-btn a {
+        background-color: #1A2C42;
+        color: #fff;
+    }
+
+    .container .action-btn:hover {
+        cursor: pointer;
+        transform: scale(1.02);
+    }
+
+    .container {
+        width: 100%;
+        position: absolute;
+        top: 15em;
+        left: 5em;
+        max-width: 440px;
+        color: #1A2C42;
+        z-index: 4;
+        background-color: transparent;
+        /* display: block; */
+    }
+
+    .container .text h1 {
+        font-size: 3em;
+    }
+
+    .lead {
+        font-size: 1.5em !important;
+        margin: 1em 0;
+    }
+
+    .text p {
+        margin: 1em 0;
+        font-size: 1.2em;
+    }
+}
+
+@media only screen and (min-width: 1260px) {
+    .planet-blue2 {
+        display: block;
+    }
+}
